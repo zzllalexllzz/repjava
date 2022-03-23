@@ -1,0 +1,19 @@
+package Herencia2;
+
+public class CuentaCorriente extends CuentaBancarias {
+
+	//atributo
+	private final double modifComisiones=0.4;
+	
+	public CuentaCorriente(double saldo, double comisionesAnual) {
+        super(saldo, comisionesAnual);
+        this.comisionesAnuales *= this.modifComisiones;
+        this.saldo -= this.comisionesAnuales;
+        this.tieneTarjetaCredito=true;
+        this.tieneTarjetaDebito=true;
+       // this.td = new TarjetaDebito();
+        //this.tc = new TarjetaCredito();
+    }
+	
+
+}

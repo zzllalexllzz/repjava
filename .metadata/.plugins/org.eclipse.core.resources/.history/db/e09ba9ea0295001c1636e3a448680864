@@ -1,0 +1,23 @@
+
+package Herencia2;
+
+import java.util.ArrayList;
+
+public class TestBanco {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Banco Cajamar = new Banco();
+		
+		Cajamar.addCuenta(new CuentaCorriente(1000, 5));
+		Cajamar.addCuenta(new CuentaCorriente(2000, 6));
+		Cajamar.addCuenta(new CuentaJoven(3000, 7));
+		Cajamar.addCuenta(new CuentaJoven(4000, 8));
+		Cajamar.addCuenta(new CuentaAhorro(5000, 9, 1));
+		Cajamar.addCuenta(new CuentaAhorro(600, 10, 2));
+		
+		Cajamar.
+	}
+
+}

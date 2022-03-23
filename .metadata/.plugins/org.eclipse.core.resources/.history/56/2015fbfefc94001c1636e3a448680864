@@ -1,0 +1,19 @@
+package Herencia2;
+
+import java.time.LocalDate;
+
+public class TarjetaCredito extends Tarjeta {
+
+	public TarjetaCredito(String nombre, LocalDate fechaVenci, double monto) {
+		super(nombre, fechaVenci, monto);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+	
+
+	
+
+	
+	
+}

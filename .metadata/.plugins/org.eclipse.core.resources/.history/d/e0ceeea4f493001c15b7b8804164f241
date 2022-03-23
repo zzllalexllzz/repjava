@@ -1,0 +1,16 @@
+package Herencia2;
+
+public class CuentaAhorro extends CuentaBancarias {
+
+	//atributo
+	private double tipoInteres;
+	private double modifComisiones;
+	
+	//constructor
+	public CuentaAhorro(String numeroCuenta, double saldo, boolean tieneTarjetaCredito, boolean tieneTargetaCredito,
+			double comisionesAnuales) {
+		super(numeroCuenta, saldo, tieneTarjetaCredito, tieneTargetaCredito, comisionesAnuales);
+		// TODO Auto-generated constructor stub
+	}
+
+}

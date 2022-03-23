@@ -1,0 +1,24 @@
+package Herencia2;
+
+public class TarjetaCredito extends Tarjeta {
+
+	/**
+	 * metodo suma al saldo la cantidad determinada 
+	 * @param cant
+	 */
+	public void ingresar(double cant) {
+		if (cant>0) {
+			this.saldo+=cant;
+		}
+	}
+	
+	/**
+	 * metodo resta al saldo la cantidad determaina
+	 * @param cant
+	 */
+	public void retirar(double cant) {
+		if (cant>0 && this.saldo>0 && cant<=this.saldo) {
+			this.saldo-=cant;
+		}
+	}
+}

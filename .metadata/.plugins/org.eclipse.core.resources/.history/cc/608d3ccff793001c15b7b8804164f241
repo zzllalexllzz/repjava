@@ -1,0 +1,11 @@
+package Herencia2;
+
+public class CuentaCorriente extends CuentaBancarias {
+
+	public CuentaCorriente(String numeroCuenta, double saldo, boolean tieneTarjetaCredito, boolean tieneTargetaCredito,
+			double comisionesAnuales) {
+		super(numeroCuenta, saldo, tieneTarjetaCredito, tieneTargetaCredito, comisionesAnuales);
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,19 @@
+package Herencia2;
+
+public class CuentaAhorro extends CuentaBancarias {
+
+	
+	//atributo
+	private double tipoInteres;
+	private final double modifComisiones=0.5;
+	 
+	//constructor
+	public CuentaAhorro(double saldo, double comisionesAnuales, double tipoInteres) {
+		super(saldo, comisionesAnuales);
+        this.comisionesAnuales*=modifComisiones;
+        this.saldo -= comisionesAnuales;
+        this.saldo=(tipoInteres*this.saldo)+this.saldo;
+    }
+	
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;paquete&apos; to &apos;main&apos;&#x0D;&#x0A;- Original project: &apos;Daw&apos;&#x0D;&#x0A;- Destination element: &apos;main&apos;&#x0D;&#x0A;- Original element: &apos;Daw/src/paquete&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" element1="/src&lt;paquete" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1614273754718" target="/DAW1-ED-Pruebas-Ejemplo1-master/src/main" version="1.0"/>
+</session>

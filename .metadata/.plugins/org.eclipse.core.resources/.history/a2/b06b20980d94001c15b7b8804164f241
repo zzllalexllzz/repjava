@@ -1,0 +1,22 @@
+package Herencia2;
+
+public class CuentaJoven extends CuentaBancarias {
+
+	//atributo
+	private final double comisiones=0.25;
+	
+	//constructor
+	public CuentaJoven(String numeroCuenta, double saldo, boolean tieneTarjetaCredito, boolean tieneTargetaCredito,
+			double comisionesAnuales) {
+		super(numeroCuenta, saldo, tieneTarjetaCredito, tieneTargetaCredito, comisionesAnuales);
+		
+	}
+
+	/**
+	 * @return the comisiones
+	 */
+	public double getComisiones() {
+		return comisiones;
+	}
+
+}

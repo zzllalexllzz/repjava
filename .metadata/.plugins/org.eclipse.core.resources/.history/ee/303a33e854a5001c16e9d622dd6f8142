@@ -1,0 +1,20 @@
+package Tienda;
+
+import java.time.LocalDate;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Categoria moviles = new Categoria("moviles");
+		Categoria peri = new Categoria("perifericos");
+		
+		Producto p1  = new Producto("IP13", "Tel apple", moviles, 50, 20);
+		
+		ClienteRegistrado cr1 = new ClienteRegistrado("javier", "guillen", "45812585A", "Mojacar", "mi casa", "javi@gmail.com", "12345678", LocalDate.of(1987, 10, 10));
+		
+		Pedido pedi = new Pedido(cr1);
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package Herencia2;
+
+public class CuentaCorriente extends CuentaBancarias {
+
+	//atributo
+	private final double modifComisiones=0.4;
+	private boolean tarjetaCredito;
+	private boolean tarjetaDebito;
+	
+	public CuentaCorriente(double saldo, boolean tieneTarjetaCredito, boolean tieneTargetaCredito,
+			double comisionesAnuales) {
+		super(saldo, tieneTarjetaCredito, tieneTargetaCredito, comisionesAnuales);
+		this.tarjetaCredito = true;
+		this.tarjetaDebito = true;
+	}
+
+}
