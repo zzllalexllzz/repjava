@@ -32,7 +32,7 @@ public class Ejercicio5 {
 			System.out.println("introduce un numero");
 			num=tcl.nextInt();
 			
-		} while ((num<1)||(num>20));
+		} while ((num<1)||(num>30));
 		
 		
 		tcl.close();
